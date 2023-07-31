@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Menu from './component/Menu.js';
-import Conditonal from './component/Conditonal';
 import Navbar from './component/Navbar';
-import  FirstComponent  from './component/FirstComponent';
 
 // import NavLayout from './component/NavLayout';
 const root = ReactDOM.createRoot(document.getElementById('root'));
