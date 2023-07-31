@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './Navbar'
-import Portfolio from './Portfolio'
+import Newhome from './Newhome'
 import { FirstComponent } from './FirstComponent';
 import Conditonal from './Conditonal';
 import CounterComp from './CounterComp';
@@ -9,6 +9,7 @@ import { Gallary,Profile } from './Gallary';
 import Tododisplay from './Tododisplay';
 import Style from './Style';
 import LocalStorage from './LocalStorage';
+import Newnav from './Newnav';
 
 export default function Newroute() {
   return (
@@ -16,9 +17,9 @@ export default function Newroute() {
 
     <Routes>
 
-        <Route path='/' element={<Navbar/>}>
-            <Route index element={<Portfolio/>} />
-            <Route index path='/portfolio' element={<Portfolio/>} />
+        <Route path='/' element={<Newnav/>}>
+            <Route index element={<Newhome/>} />
+            <Route index path='/portfolio' element={<Newhome/>} />
             <Route path='/firstcomponent' element={<FirstComponent/>}/>
             <Route path='/conditional' element={<Conditonal/>}/>
             <Route path='/countercomp' element={<CounterComp/>}/>
