@@ -10,18 +10,17 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <>
 <Navbar/>
-<FirstComponent/>
   <div>
   <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src="image/img2.jpg" className="d-block w-100" alt="hello"/>
+      <img src="image/img2.jpg" className="d-block w-100" alt="hello" height={500}/>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src="image/datalogo.jpg" className="d-block w-100" alt="..." height={500}/>
     </div>
     <div className="carousel-item">
-      <img src="..." className="d-block w-100" alt="..."/>
+      <img src="image/react.png" className="d-block w-100" alt="..." height={500}/>
     </div>
   </div>
   <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
