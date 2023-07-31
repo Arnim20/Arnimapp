@@ -7,9 +7,11 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './component/Navbar';
 import { FirstComponent, Demo } from './component/FirstComponent';
 import LocalStorage from './component/LocalStorage';
+import Newroute from './component/Newroute';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
+  <Newroute/>
 );
 
 // If you want to start measuring performance in your app, pass a function

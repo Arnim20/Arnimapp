@@ -21,7 +21,7 @@ export default function Portfolio() {
       </div>
     </div>
     <div className="carousel-item">
-      <img src="img/p1.jpg" className="d-block w-100" alt="..." height={500}/>
+      <img src="image/1." className="d-block w-100" alt="..." height={500}/>
       <div className="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
