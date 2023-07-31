@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './component/Navbar';
+import Tododisplay from './component/Tododisplay';
 
 // import NavLayout from './component/NavLayout';
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,6 +34,7 @@ root.render(
   </button>
 </div>
   </div>
+  <Tododisplay/>
 </>
 );
 
