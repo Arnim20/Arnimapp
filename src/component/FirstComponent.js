@@ -1,11 +1,11 @@
 import React from 'react';
-
-//export function Demo(){
-   // return(
-   //     <h1>Named Component</h1>
-   // );
-//}
- export default function FirstComponent(){
+import { Link } from 'react-router-dom';
+export function Demo(){
+    return(
+        <h1>Named Component</h1>
+    );
+}
+ export  function FirstComponent(){
     return (
         <>
         <h1>This is my First Headig</h1>
