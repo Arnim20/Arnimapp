@@ -1,17 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export function Gallary(props){
-    return (
-        <div>
-            <img src={props.ulr} width={100} />
-        </div>
-    );
+
+export  function Gallary() {
+  return (
+    <div>
+        <img src="image/mouse.jpg"/>
+        <div className="mt-2">
+
+  </div>
+    </div>
+  )
 }
 
-export function Profile(){
+export  function Profile() {
     return (
-        <div>
-            <p>This logo belong to WOrkout tracker Website</p>
-        </div>
-    );
-}
+      <div>
+        <p> this is my profile because this is beautiful</p>
+      </div>
+    )
+  }

@@ -10,6 +10,10 @@ import Tododisplay from './Tododisplay';
 import Style from './Style';
 import LocalStorage from './LocalStorage';
 import Newnav from './Newnav';
+import About from './About';
+import Task from './Task';
+import Product from './Product';
+
 
 export default function Newroute() {
   return (
@@ -20,12 +24,15 @@ export default function Newroute() {
         <Route path='/' element={<Newnav/>}>
             <Route index element={<Newhome/>} />
             <Route index path='/portfolio' element={<Newhome/>} />
+            <Route path='/about' element={<About/>}/>
+            <Route path='/task' element={<Task/>}/>
             <Route path='/firstcomponent' element={<FirstComponent/>}/>
             <Route path='/conditional' element={<Conditonal/>}/>
             <Route path='/countercomp' element={<CounterComp/>}/>
             <Route path='/gallary' element={<Gallary/>}/>
             <Route path='/tododisplay' element={<Tododisplay/>}/>
             <Route path='/style' element={<Style/>}/>
+            <Route path='/product' element={<Product/>}/>
             <Route path='/localstorage' element={<LocalStorage/>}/>
 
         </Route>
