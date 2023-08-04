@@ -26,9 +26,9 @@ export default function LocalStorage() {
   return (
     <div>
     <form onSubmit={add}>
-      <input type="text" name="name" />
-      <input type="password" name="pass" />
-      <button type="submit">Add</button>
+      <input type="text" name="name" className='bg-dark'/>
+      <input type="password" name="pass" className='bg-dark'/>
+      <button type="submit" className='bg-primary'>Add</button>
     </form>
     <p id="p1"></p>
   </div>

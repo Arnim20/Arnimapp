@@ -6,13 +6,13 @@ import { FirstComponent } from './FirstComponent';
 import Conditonal from './Conditonal';
 import CounterComp from './CounterComp';
 import { Gallary,Profile } from './Gallary';
-import Tododisplay from './Tododisplay';
 import Style from './Style';
 import LocalStorage from './LocalStorage';
 import Newnav from './Newnav';
 import About from './About';
 import Task from './Task';
 import Product from './Product';
+import Viewtodo from './Viewtodo';
 
 
 export default function Newroute() {
@@ -30,7 +30,7 @@ export default function Newroute() {
             <Route path='/conditional' element={<Conditonal/>}/>
             <Route path='/countercomp' element={<CounterComp/>}/>
             <Route path='/gallary' element={<Gallary/>}/>
-            <Route path='/tododisplay' element={<Tododisplay/>}/>
+            <Route path='/viewtodo' element={<Viewtodo/>}/>
             <Route path='/style' element={<Style/>}/>
             <Route path='/product' element={<Product/>}/>
             <Route path='/localstorage' element={<LocalStorage/>}/>

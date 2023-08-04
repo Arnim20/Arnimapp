@@ -7,8 +7,8 @@ export default function CounterComp(props) {
     );
   return (
    <div>
-    <h1>Counter : {x}</h1>
-    <button onClick={Increment}>Increment</button>
+    <h1 className='bg-primary'>Counter : {x}</h1>
+    <button className='bg-primary' onClick={Increment}>Increment</button>
    </div>
   )
 }

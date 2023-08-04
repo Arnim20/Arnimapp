@@ -8,9 +8,9 @@ export function Demo(){
  export  function FirstComponent(){
     return (
         <>
-        <h1>This is my First Headig</h1>
+        <h1>This is my First Heading</h1>
         <p>This is my para</p>
-        <img src="image/new.png" alt='logo'/>
+        <img src="image/s class.jpeg" alt='logo'/>
         </>
     );
 }

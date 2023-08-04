@@ -35,7 +35,7 @@ export default function Todoform({
             type="text"
             onChange={handleChange}
           />
-          <button className="btn btn-primary ms-2" type="submit">
+          <button className="btn btn-dark ms-1" type="submit">
             Add
           </button>
         </form>

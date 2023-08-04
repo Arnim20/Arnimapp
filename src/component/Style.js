@@ -5,7 +5,7 @@ export default function Style(){
     return(
         
         <div>
-            <p className='bg-primary'>This is my para</p>
+            <p className='bg-light'>This is my para</p>
         </div>
     );
 }

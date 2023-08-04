@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export  function Gallary() {
   return (
     <div>
-        <img src="image/mouse.jpg"/>
+        <img src="image/bmw 7 series.jpeg"/>
         <div className="mt-2">
 
   </div>
